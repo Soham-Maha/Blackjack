@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(0, 81, 44);
+    margin: 0px;
+}
+
+header{
+    background-image: url(./blackjack_banner.jpg);
+    height: 20vw;
+    min-height: 100px;
+    background-repeat: repeat;
+    background-position: top center;
+    background-size: 1520px 320px;
+    background-attachment: fixed ;
+    margin: 0;
+}
+
+nav{
+    background-color: gray;
+    height: 40px;
+}
+#dealer-cards img{
+    height: 175px;
+    width: 125px;
+    margin: 2px;
+    padding: 5px;
+}
+
+#your-cards img{
+    height: 175px;
+    width: 125px;
+    margin: 2px;
+    padding: 5px;
+}
+
+button:hover{
+    scale: 1.1;
+}
+
+button{
+    cursor: pointer;
+}
+
+#hit{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#stay{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#play-again{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#hidden-your{
+    transition: transform 1s;
+    transform-style: preserve-3d ;
+}
+
+#table{
+    border: 13px solid rgb(40, 16, 16);
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+    align-content: center;
+    border-radius: 500px;
+    
+}
+
+#inner{
+    border: 3px solid white;
+    width: 95%;
+    overflow: hidden;
+ 
+    align-content: center;
+    border-radius: 300px;
+    padding: 5px;
+    margin: 10px;
+
+    
+}
+
+#buttons{
+    background-color: darkolivegreen;
+    align-content: center;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 10pxs;
+}
+
+footer{
+    background-color: gray;
+    height: 40px;
+}
